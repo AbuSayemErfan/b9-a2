@@ -1,11 +1,181 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>B9-A2</title>
+    <link rel="stylesheet" href="styles/b9-a2.css">
 </head>
+
 <body>
-    
+    <!-- header start -->
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="Images/Group 40071 (2).png" alt="">
+                <h2>Travel <span class="span02">Tour</span></h2>
+            </div>
+            <ul>
+                <li><a href=""><span class="span01">Home</span></a></li>
+                <li><a href="">Packages</a></li>
+                <li><a href="">Testimonial</a></li>
+                <li><a href="">Blog</a></li>
+                <li><a href="">Contact</a></li>
+            </ul>
+            <div class="bar"><img src="Images/bar.png" alt=""></div>
+        </nav>
+    </header>
+    <!-- main start -->
+    <main>
+        <!-- Explore section -->
+        <section class="explore">
+            <div class="explore-text">
+                <h1>Explore Your Travel</h1>
+                <p>each destination a unique chapter, inviting you to embark on a journey of discovery <br> and immerse yourself in the wonders that await.</p>
+            </div>
+            <div class="explore-input">
+                <input class="explore-select" type="text" placeholder="Where go">
+                <select class="explore-select">
+                    <option placeholder="When" value="option1">When</option>
+                    <option value="option2">Option 2</option>
+                    <option value="option3">Option 3</option>
+                </select>
+                <select class="explore-select">
+                    <option placeholder="Select Type" value="option1">Select Type</option>
+                    <option value="option2">Option 2</option>
+                    <option value="option3">Option 3</option>
+                </select>
+                <button class="search-btn btn-primary">
+                    <div class="search-icon"><img src="Images/search icon.png" alt=""></div>
+                    <div class="search-text">Find Now</div>
+                </button>
+            </div>
+        </section>
+        <!-- Poplular section -->
+        <section class="popular">
+            <div class="popular-content">
+                <div class="section-title">
+                    <h1>Our Popular Tours</h1>
+                </div>
+                <div class="section-description">
+                    <p>The World’s 10 Most Popular Experiences, ranked by 2023 booking totals, were:</p>
+                    <ul>
+                        <li>Skip the line: Vatican Museums, St Peter’s, Sistine Chapel.</li>
+                        <li>Chicago Architecture River Cruise</li>
+                        <li> Skip the line: Ancient Rome and Colosseum Half-Day Walking Tour</li>
+                        <p>You can see all of TripAdvisor’s data and travel trend analysis here, along with rankings just for the USA and for newly added experiences.</p>
+                    </ul>
+
+                </div>
+                <button class="btn-primary popular-btn">Read More</button>
+            </div>
+            <div class="popular-img">
+                <img src="Images/Rectangle 4.png" alt="">
+            </div>
+        </section>
+        <section class="destination">
+            <div class="destination-content">
+                <div class="section-title">
+                    <h1>Choose Your Destination</h1>
+                </div>
+                <div class="section-description">
+                    <p>Choosing a destination for your next trip or vacation can be one of the most enjoyable aspects of travel. It’s a time filled with anticipation and possibility.<br> But sometimes, choosing a destination can also be stressful or frustrating. </p>
+                </div>
+            </div>
+            <div class="destination-img">
+                <div class="column01">
+                    <img src="Images/Rectangle 5.png" alt="">
+                    <img src="Images/Rectangle 8.png" alt="">
+                </div>
+                <div class="column02">
+                    <img src="Images/Rectangle 6.png" alt="">
+                    <img src="Images/Rectangle 7.png" alt="">
+                    <img src="Images/Rectangle 9.png" alt="">
+                </div>
+                <div class="column03">
+                    <img src="Images/Rectangle 11.png" alt="">
+                    <img src="Images/Rectangle 10.png" alt="">
+                </div>
+            </div>
+        </section>
+
+        <!-- Choose Section -->
+        <section class="choose">
+            <div class="section-title">
+                <h1>Why Choose Us</h1>
+            </div>
+            <div class="section-description">
+                <p>Whether you are on Holidays or on a Business Trip and want an escape and take some time to discover the city, the best way to experience your destination is with us at Tour Travel & <br> More with any type of Private Experience and Tour in luxury vehicles and qualified and official tour guides.</p>
+            </div>
+            <div class="choose-box-container02">
+                <div class="choose-box-container">
+                    <div id="box01" class="choose-box">
+                        <img src="Images/hotel 1.png" alt="">
+                        <h3>Handpicked Hotels</h3>
+                        <p class="section-description">Pretty much anyone can book a trip, but not everyone can plan an ultimate adventure that's affordable, accommodating, and fun for everyone in your group. At TripsInsider.com, we aim to provide you with the best insider secrets in the travel business and a state-of-the-art travel comparison tool to make planning easier than ever.</p>
+                    </div>
+
+                    <div id="box02" class="choose-box">
+                        <img src="Images/map 1.png" alt="">
+                        <h3>World Class Service</h3>
+                        <p class="section-description">HOTEL An establishment that provides lodging
+                            and usually meals and other services for
+                            travelers and other paying guests. A hotel is
+                            a type of establishment that accommodates
+                            visitors for a short stay at a stated fee a
+                            commercial establishment offering lodging to
+                            travelers and sometimes to permanent residents,
+                            and often having restaurants, meeting rooms,
+                            stores, etc., that are available to the general
+                            public. </p>
+                    </div>
+                </div>
+
+                <div id="box03" class="choose-box">
+                    <img src="Images/price-tag 1.png" alt="">
+                    <h3>Best Price Guarantee</h3>
+                    <p class="section-description">Our Best Price Guarantee means that you can be sure of booking at the best rate.If you find a lower price elsewhere within 24 hours of booking, we will match the lower rate</p>
+                </div>
+            </div>
+
+        </section>
+        <!-- news section -->
+        <section class="news">
+            <div class="news-content">
+                <h4>Newsletter</h4>
+                <p class="section-description">Get your daily dose of travel news & tips. Sign up today!</p>
+                <div class="news-input">
+                    <input type="text" placeholder="Enter your name">
+                    <input type="text" placeholder="Enter your email">
+                    <button class="btn-primary">Subscribe</button>
+                </div>
+            </div>
+            <div class="news-img">
+                <img src="Images/Rectangle 8 (1).png" alt="">
+                <div class="tag">
+                    <p>Travel.com</p>
+                    <h3>Save up to 70%</h3>
+                </div>
+            </div>
+            
+        </section>
+    </main>
+    <!-- footer start -->
+    <footer>
+        <div class="logo">
+            <img src="Images/Group 40071 (2).png" alt="">
+            <h2>Travel <span class="span02">Tour</span></h2>
+        </div>
+        <div class="section-description">
+            <p style="text-align: center;">Established in 2011, Creative Tours & Travels is one of the  <br> Bangladesh's leading independent travel agencies. </p>
+        </div>
+        <div class="footer-icons">
+            <img src="Images/Social.png" alt="">
+        </div>
+        <hr>
+        <p>2017, All Rights Reserved.</p>
+    </footer>
 </body>
+
 </html>
